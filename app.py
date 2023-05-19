@@ -3,6 +3,7 @@ from nltk.corpus import stopwords
 import streamlit as st
 import pickle
 import nltk
+nltk.download('punkt')
 import string
 
 ps = PorterStemmer()
